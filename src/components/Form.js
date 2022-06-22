@@ -12,7 +12,7 @@ function Form() {
     })
 
     const handleChange=(e)=>{
-        setdata({
+        setdata({   
             ...data,
             [e.target.name]:e.target.value
         })

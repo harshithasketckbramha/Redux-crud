@@ -29,7 +29,7 @@ function Tables() {
       {content.map((val,i)=>{
         return (
         <tr key={i+1}>
-          <td>{i}</td>
+          <td>{i+1}</td>
           <td>{val.name}</td>
           <td>{val.password}</td>
           <td> 
